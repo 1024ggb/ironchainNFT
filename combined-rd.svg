@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="292px" height="292px" viewBox="0 0 292 292" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>artboard</title>
+    <defs>
+        <path d="M246.215019,259.959788 L13.8515438,259.959788 C6.26090957,259.959788 0.107397617,253.806276 0.107397617,246.215641 L0.107397617,13.8521666 C0.107397617,6.26153235 6.26090957,0.108020399 13.8515438,0.108020399 L246.215019,0.108020399 C253.805653,0.108020399 259.959165,6.26153235 259.959165,13.8521666 L259.959165,246.215641 C259.959165,253.806276 253.805653,259.959788 246.215019,259.959788" id="path-1"></path>
+        <filter x="-9.2%" y="-9.2%" width="118.5%" height="118.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.445640453   0 0 0 0 0.419604832   0 0 0 0 0.380126277  0 0 0 0.12 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="iPhone-12-Pro" transform="translate(-14.000000, -197.000000)">
             <rect id="bg" fill="#FEFEFE" x="0" y="0" width="320" height="874"></rect>
